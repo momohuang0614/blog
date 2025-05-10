@@ -15,15 +15,15 @@
 
 theme: "minimal-mistakes-jekyll"
 # remote_theme: "mmistakes/minimal-mistakes@4.27.0"
-minimal_mistakes_skin: "aqua" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "sunrise" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Momo's Blog
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -31,8 +31,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 domain: momohuang0614.github.io # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://momohuang0614.github.io # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: /blog # the subpath of your site, e.g. /blog
-twitter_username: jekyllrb
-github_username: jekyll
 
 # Build settings
 markdown: kramdown
@@ -49,3 +47,38 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Site Author
+author:
+  name: "Momo Huang"
+  avatar: /assets/images/bio-photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio:
+    "我是 Momo Huang，我喜歡分享旅遊、美食等相關的文章，並且會不定期更新我的 Blog。
+    我希望透過這個平台，能夠與大家分享我的經驗。"
+  location: "Taiwan, Taipei"
+  email:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      # url: ""
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      # url: ""
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      # url: ""
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: ""
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: ""
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      # url: ""
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: ""
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: ""
