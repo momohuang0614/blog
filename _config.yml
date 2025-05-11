@@ -355,7 +355,7 @@ plugins:
 # Site Author
 author:
   name: "Momo Huang"
-  avatar: /assets/images/bio-photo.png # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar: /assets/images/bio-photo.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio:
     "還在想"
   location: "Taiwan, Taipei"
