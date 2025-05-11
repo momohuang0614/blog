@@ -6,9 +6,9 @@
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 
-<html lang="en" class="no-js">
+<html lang="en-US" class="no-js">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
 
 <!-- begin _includes/seo.html --><title>Momo’s Blog</title>
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
@@ -22,7 +22,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Momo's Blog">
 <meta property="og:title" content="Momo’s Blog">
-<meta property="og:url" content="https://momohuang0614.github.io/blog/404.html">
+<meta property="og:url" content="https://momohuang0614.github.io/blog/404/">
 
 
   <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
@@ -37,8 +37,12 @@
 
 
 
+  
 
-<link rel="canonical" href="https://momohuang0614.github.io/blog/404.html">
+  
+
+
+<link rel="canonical" href="https://momohuang0614.github.io/blog/404/">
 
 
 
@@ -52,11 +56,14 @@
 
 
 <!-- end _includes/seo.html -->
-
-
-
-  <link href="/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Momo's Blog Feed">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link
+  href="/blog/feed.xml"
+  type="application/atom+xml"
+  rel="alternate"
+  title="Momo's Blog Feed"
+/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -64,9 +71,18 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="/blog/assets/css/main.css">
-<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+<link rel="stylesheet" href="/blog/assets/css/main.css" />
+<link
+  rel="preload"
+  href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript
+  ><link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"
+/></noscript>
 
 
 
@@ -96,15 +112,32 @@
         
         <a class="site-title" href="/blog/">
           Momo's Blog
-          
+          <span class="site-subtitle">還在想</span>
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
               <a
-                href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/"
+                href="/blog/"
                 
                 
-              >Quick-Start Guide</a>
+              >Home</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/blog/tags/"
+                
+                
+              >Tags</a>
             </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
         
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">Toggle menu</span>
@@ -143,6 +176,17 @@
     </div>
 
     
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
 
     <div id="footer" class="page__footer">
       <footer>
@@ -152,7 +196,31 @@
         <div class="page__footer-follow">
   <ul class="social-icons">
     
+      <li><strong>Follow:</strong></li>
+    
 
+    
+      
+        
+      
+        
+          <li><a href="https://github.com/momohuang0614" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.youtube.com/channel/UC6Dnl0rB-HAhfL2XWRIZXmg" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
     
 
     
@@ -171,6 +239,10 @@
 
 
 
+
+<script src="/blog/assets/js/lunr/lunr.min.js"></script>
+<script src="/blog/assets/js/lunr/lunr-store.js"></script>
+<script src="/blog/assets/js/lunr/lunr-en.js"></script>
 
 
 

@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://momohuang0614.github.io/blog/jekyll/update/2025/05/10/welcome-to-jekyll.html</loc>
+<loc>https://momohuang0614.github.io/blog/jekyll/update/welcome-to-jekyll/</loc>
 <lastmod>2025-05-10T16:17:59+00:00</lastmod>
+</url>
+<url>
+<loc>https://momohuang0614.github.io/blog/404/</loc>
 </url>
 <url>
 <loc>https://momohuang0614.github.io/blog/about/</loc>
 </url>
 <url>
+<loc>https://momohuang0614.github.io/blog/categories/</loc>
+</url>
+<url>
 <loc>https://momohuang0614.github.io/blog/</loc>
+</url>
+<url>
+<loc>https://momohuang0614.github.io/blog/tags/</loc>
+</url>
+<url>
+<loc>https://momohuang0614.github.io/blog/categories/jekyll/</loc>
+</url>
+<url>
+<loc>https://momohuang0614.github.io/blog/categories/update/</loc>
 </url>
 </urlset>
